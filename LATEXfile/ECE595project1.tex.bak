@@ -1,0 +1,32 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphicx}
+
+\begin{document}
+\tableofcontents
+
+\title{ECE595 Project 1 Report}
+\author{Niu,Wensen and Shen,Dan}
+\date{\today}
+\maketitle
+
+\section{About This Project}
+	firstly, we recall the conditions and tasks of this project in this report. Instantaneously, we introduce what we did for this project.
+	\subsection{Conditions}
+	"Cat and Mouse" problem is a typical example of mutual exclusion problem which can be solved by the application of petri net. In this project, we consider that there are 4 rooms in a house. the house layout shown in Figure1.
+	\begin{center}
+	\includegraphics[]{houselayout.JPG}
+	
+	Figure 1 House layout
+	\end{center}
+	\subsection{Tasks}
+	
+\section{Build Petri Net Model}
+	\subsection{Petri net model for the movement of the cat}
+	\subsection{Petri net model for the movement of the mouse}
+	\subsection{Design a petri net controller}
+
+\section{Computer program}
+	\subsection{Functions}
+	\subsection{M-file}
+\end{document}

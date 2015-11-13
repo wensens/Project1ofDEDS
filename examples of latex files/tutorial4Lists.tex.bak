@@ -1,0 +1,70 @@
+\documentclass[11pt]{article}
+
+\begin{document}
+pencil
+calculator
+ruler
+notebook
+graph paper
+
+\begin{enumerate}
+\item pencil
+\item calculator
+\item ruler
+\item notebook
+\item graph paper
+\end{enumerate}
+
+\begin{enumerate}
+\item pencil
+\item paper
+\item calculator
+\item ruler
+\item notebook
+\item graph paper
+\end{enumerate}
+
+\begin{enumerate}
+\item pencil
+\item paper
+\item calculator
+\item ruler
+\item notebook
+	\begin{enumerate}
+	\item assessments
+		\begin{enumerate}
+		\item tests
+		\item quizzes
+		\end{enumerate}
+	\item homework
+	\item notes
+	\end{enumerate}
+\item graph paper
+\end{enumerate}
+
+\begin{itemize}
+
+\item pencil
+\item paper
+\item calculator
+\item ruler
+\item notebook
+	\begin{itemize}
+	\item assessments
+		\begin{itemize}
+		\item tests
+		\item quizzes
+		\end{itemize}
+	\item homework
+	\item notes
+	\end{itemize}
+\item graph paper
+\end{itemize}
+
+\begin{enumerate}
+\item[commutative] $a+b=b+a$
+\item[Associative] $a+(b+c)=(a+b)+c$
+\item[Distributive] $a(b+c)=ab+ac$
+\end{enumerate}
+
+\end{document}

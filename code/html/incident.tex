@@ -1,0 +1,68 @@
+
+% This LaTeX was auto-generated from MATLAB code.
+% To make changes, update the MATLAB code and republish this document.
+
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{color}
+
+\sloppy
+\definecolor{lightgray}{gray}{0.5}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+    
+    \begin{verbatim}
+function incident=incident(Boutput,Binput)
+\end{verbatim}
+\begin{par}
+INCIDENT Incident matrix of petri net     incident=incident(Boutput,Binput) calculate the incident matrix     Def:         B=Boutput-Binput         B represents the incident matrix         Binput represents the input incident matrix         Boutput represents the output incident matrix
+\end{par} \vspace{1em}
+\begin{verbatim}see also controlledpetri inicon petricon transition
+Copyright Wensen CNboys @2015\end{verbatim}
+\begin{par}
+Judge number of input arguments for this function If the number of input arguments great than 2, feedback error message that too many input arguments If the number of input arguments less than 2, feedback error message that two matrix should be give for this function
+\end{par} \vspace{1em}
+\begin{verbatim}
+if nargin>2
+    error('too many input arguments')
+end
+if nargin<2
+    error('two matrix should be given for this function')
+end
+\end{verbatim}
+
+        \color{lightgray} \begin{verbatim}Error using incident (line 24)
+two matrix should be given for this function
+\end{verbatim} \color{black}
+    \begin{par}
+If the number of input arguments equals to 2
+\end{par} \vspace{1em}
+\begin{verbatim}
+if nargin==2
+    sizeBoutput=size(Boutput);%check the size of Boutput
+    sizeBinput=size(Binput);%check the size of Binput
+%     Judge the size of Boutput and the size of Binput.
+%     If they are not equal, feedback error information that check
+%     dimensions of Binput and Boutput and keep them same.
+    if sizeBoutput~=sizeBinput
+        error('Check dimensions of Binput and Boutput and keep them same')
+    end
+%     If the size of Boutput and Binput are equal, calculate the incident
+%     matrix of the Petri net defined by Boutput and Binput.
+
+    if sizeBoutput==sizeBinput
+%         For a Petri net, the incident matrix equals the output incident
+%         matrix minus the input incident matrix.
+%         For this function, it will return incident value for its main
+%         program.
+        incident=Boutput-Binput;
+    end
+end
+\end{verbatim}
+
+
+
+\end{document}
+    

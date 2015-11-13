@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}About This Project}{2}
+\contentsline {subsection}{\numberline {1.1}Conditions}{2}
+\contentsline {subsection}{\numberline {1.2}Tasks}{2}
+\contentsline {section}{\numberline {2}Build Petri Net Model}{3}
+\contentsline {subsection}{\numberline {2.1}Petri net model for the movement of the cat}{3}
+\contentsline {subsection}{\numberline {2.2}Petri net model for the movement of the mouse}{5}
+\contentsline {subsection}{\numberline {2.3}Design a Petri net controller}{7}
+\contentsline {section}{\numberline {3}Computer program}{10}
+\contentsline {section}{\numberline {A}CONDITION.M}{13}
+\contentsline {section}{\numberline {B}CONTROLLEDPETRI.M}{14}
+\contentsline {section}{\numberline {C}INCIDENT.M}{16}
+\contentsline {section}{\numberline {D}INICON.M}{17}
+\contentsline {section}{\numberline {E}PETRICON.M}{19}
+\contentsline {section}{\numberline {F}TRANSITION.M}{21}
+\contentsline {section}{\numberline {G}RESULT.TXT}{25}
