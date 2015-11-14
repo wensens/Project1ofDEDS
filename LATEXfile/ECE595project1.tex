@@ -25,7 +25,7 @@
 \section{About This Project}
 	Firstly, we recall the problem and tasks of this project in this chapter. Instantaneously, we introduce what we did for this project.
 	\subsection{Conditions}
-	"Cat and Mouse" problem is a typical problem of mutual exclusion problem which can be solved by the application of petri net. In this project, we consider that there are 4 rooms in a house and the house layout is shown as Figure 1.
+	"Cat and Mouse" problem is a typical problem of mutual exclusion problem which can be solved by the application of Petri net. In this project, we consider that there are 4 Rooms in a house and the house layout is shown as Figure 1.
 	\begin{center}
 	\includegraphics[]{houselayout.JPG}
 	
@@ -43,10 +43,10 @@
 	4. Write a computer program (preferably in MATLAB or C) to calculate all possible reachable states of the Controlled Petri net.
 		
 \section{Build Petri Net Model}
-	To apply the Petri net on this kind "Cat and Mouse" problem, we built Petri net model for the movement. In this Chapter, we build Petri net for the movement of the cat, build Petri net for the movement of the mouse, and design a Petri net controller for this problem to guarantee that the cat and mouse can never be in the same room as the initial state, cat is in room 4 and mouse is in room 1.
+	To apply the Petri net on this kind "Cat and Mouse" problem, we built Petri net model for the movement. In this Chapter, we build Petri net for the movement of the cat and for the movement of the mouse and design a Petri net controller for this problem to guarantee that the cat and mouse can never be in the same room for that the initial state is that cat is in room 4 and mouse is in room 1.
 	
 	\subsection{Petri net model for the movement of the cat}
-	Firstly, for building Petri net model for the movement of the cat, we build place set, transition set and arcs set:
+	A Petri net graph is weighted bipartite graph()For building Petri net model for the movement of the cat, we build place set, transition set and arcs set of the Petri net model.
 	
 	Place set: $$P_{cat}=\{P_{cat1},\ P_{cat2},\ P_{cat3},\ P_{cat4}\};$$
 	
@@ -757,8 +757,8 @@ function controlledpetri=controlledpetri(Boutput,Binput,Bc,Mco,M0)
 %         "controlled Petri net"
 %         M0Mco: The initial state of the "controlled Petri net"
 % 
-%   see also incident inicon petricon transition Copyright Wensen
-%   CNboy @2015
+%   see also incident inicon petricon transition 
+%   Copyright Wensen CNboy @2015
 
 %% 
 % Jusge number of input arguments for this function.
